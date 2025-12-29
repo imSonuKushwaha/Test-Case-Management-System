@@ -5,22 +5,22 @@ import { AuthContext } from "../../context/AuthContext";
 const menuItems = [
   {
     label: "Dashboard",
-    path: "/dashboard",
+    path: "/app/dashboard",
     roles: ["admin", "test-lead", "tester", "read-only"],
   },
   {
     label: "Projects",
-    path: "/projects",
+    path: "/app/projects",
     roles: ["admin", "test-lead"],
   },
   {
     label: "Test Cases",
-    path: "/testcases",
+    path: "/app/testcases",
     roles: ["admin", "test-lead", "read-only"],
   },
   {
     label: "Execution",
-    path: "/executions",
+    path: "/app/executions",
     roles: ["admin", "test-lead", "tester"],
   },
 ];

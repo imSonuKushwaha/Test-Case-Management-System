@@ -1,12 +1,12 @@
 import { Suspense } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import { routes } from "./routes";
 import ProtectedRoute from "../components/layout/ProtectedRoute";
 import Loader from "../components/common/Loader";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Suspense fallback={<Loader />}>
         <Routes>
           {routes.map((route) => (
@@ -32,6 +32,6 @@ export default function App() {
           ))}
         </Routes>
       </Suspense>
-    </BrowserRouter>
+    </HashRouter>
   );
 }

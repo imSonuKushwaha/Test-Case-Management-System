@@ -47,9 +47,9 @@ export default function Login() {
         token,
       });
 
-      navigate("/dashboard");
+      navigate("/app/dashboard");
       setLoading(false);
-    }, 800); // simulate network delay
+    }, 800);
   };
 
   return (
