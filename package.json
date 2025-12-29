@@ -1,6 +1,5 @@
 {
   "name": "test-case-management-system",
-  "homepage": "https://imSonuKushwaha.github.io/Test-Case-Management-System/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,15 +7,12 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.18",
     "axios": "^1.13.2",
     "clsx": "^2.1.1",
-    "gh-pages": "^6.3.0",
     "lodash.debounce": "^4.0.8",
     "lucide-react": "^0.562.0",
     "react": "^19.2.0",
